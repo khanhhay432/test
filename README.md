@@ -1,7 +1,7 @@
-## 📋 Test Case Summary
+## Bài tập classroom 
 
-| Buổi | Tên file | Ghi chú |
-|-----|---------|--------|
-| Buổi 1 | `Test_case.xlsx` | Test case cơ bản |
-| Buổi 2 | `Test_case(b2).xlsx` | Bài tập buổi 2 |
-| Buổi 2 | `Test_case(2b)-Lab3.xlsx` | Lab 3 |
+| Buổi | Bộ tài liệu | Thành phần | Mô tả |
+|-----|---------|--------|---------|
+| Buổi 1 | `Test_case` | 4 file word  |  Bài tập buổi 1 |
+| Buổi 2 | `Test_case(b2)` | excel | Bài tập buổi 2 |
+| Buổi 2 | `Test_case(2b)-Lab3` | excel | Bài tập buổi 2 - Lab 3 |
