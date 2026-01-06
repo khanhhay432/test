@@ -1,3 +1,7 @@
-1. file: Test_case - Buổi 1
-2. file: Test_case(b2) - Buổi 2 <br>
-   file: Test_case(2b)-Lab3 - Buổi 2
+## 📋 Test Case Summary
+
+| Buổi | Tên file | Ghi chú |
+|-----|---------|--------|
+| Buổi 1 | `Test_case.xlsx` | Test case cơ bản |
+| Buổi 2 | `Test_case(b2).xlsx` | Bài tập buổi 2 |
+| Buổi 2 | `Test_case(2b)-Lab3.xlsx` | Lab 3 |
