@@ -7,3 +7,4 @@
 | Buổi 2 | `Test_case(2b)-Lab3` | excel | Bài tập buổi 2 - Lab 3 |
 | Buổi 3 | `Test_case(b3)` | word | Bài tập buổi 3 |
 | Buổi 4 | `Test_case_code` | word & code & data | Bài tập buổi 4 |
+| Buổi 5 | `Test_B5` | word & code & data & excel | Bài tập buổi 5 |
