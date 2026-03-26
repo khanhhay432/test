@@ -1,7 +1,7 @@
 ## Bài tập classroom 
 
 | Buổi | Bộ tài liệu | Mô tả |
-|-----|---------|--------|---------|
+|-----|---------|--------|
 | Buổi 1 | `Test_case` | Bài tập buổi 1 |
 | Buổi 2 | `Test_case(b2)` | Bài tập buổi 2 |
 | Buổi 2 | `Test_case(2b)-Lab3` | Bài tập buổi 2 - Lab 3 |
