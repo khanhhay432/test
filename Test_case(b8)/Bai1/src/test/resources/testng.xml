@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Lab8-Bai1-Selenium" verbose="2">
+    <test name="Title Tests">
+        <classes><class name="lab1.TitleTest"/></classes>
+    </test>
+    <test name="Login Tests">
+        <classes><class name="lab1.LoginTest"/></classes>
+    </test>
+</suite>

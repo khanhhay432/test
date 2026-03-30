@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Lab8-Bai6-TDD-WhiteBox" verbose="2">
+    <test name="TDD PhoneValidator Tests">
+        <classes><class name="lab6.PhoneValidatorTest"/></classes>
+    </test>
+    <test name="WhiteBox Selenium demoqa TextBox">
+        <classes><class name="lab6.selenium.TextBoxWhiteBoxTest"/></classes>
+    </test>
+</suite>

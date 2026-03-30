@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<!--
+  BÀI 7: Allure + JaCoCo
+  Chạy: mvn clean test
+  Allure report: allure serve target/allure-results
+  JaCoCo report: target/site/jacoco/index.html
+-->
+<suite name="Lab8-Bai7-Allure-JaCoCo" verbose="2">
+    <test name="OrderProcessor Basis Path + MC/DC">
+        <classes><class name="lab7.OrderProcessorTest"/></classes>
+    </test>
+</suite>

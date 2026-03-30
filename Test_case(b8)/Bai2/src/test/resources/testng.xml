@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<!--
+  BÀI 2 - TestNG Suite với:
+  - Groups: smoke, regression, sanity
+  - Parallel: classes, thread-count=2 (2 cửa sổ Chrome mở cùng lúc)
+  - Parameters: browser
+
+  DEMO GROUPS:
+    Chỉ smoke: Đổi <include name="smoke"/>
+    Tất cả:   Thêm <include name="regression"/>
+-->
+<suite name="Lab8-Bai2-Suite" verbose="2" parallel="classes" thread-count="2">
+
+    <parameter name="browser" value="chrome"/>
+
+    <!-- Chạy tất cả: smoke + regression + sanity -->
+    <!-- Để chạy chỉ smoke: đổi thành <include name="smoke"/> -->
+    <groups>
+        <run>
+            <include name="smoke"/>
+            <include name="regression"/>
+            <include name="sanity"/>
+        </run>
+    </groups>
+
+    <test name="Login Tests">
+        <classes><class name="lab2.LoginTest"/></classes>
+    </test>
+
+    <test name="Cart Tests">
+        <classes><class name="lab2.CartTest"/></classes>
+    </test>
+
+    <test name="Checkout Tests">
+        <classes><class name="lab2.CheckoutTest"/></classes>
+    </test>
+
+</suite>
