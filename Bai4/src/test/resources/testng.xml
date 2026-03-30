@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Bai4-JSON-Faker" verbose="2">
-    <parameter name="browser" value="chrome"/>
-    <parameter name="env"     value="dev"/>
-    <test name="JSON DDT + Faker">
-        <classes><class name="tests.Bai4_UserLoginTest"/></classes>
-    </test>
-</suite>
