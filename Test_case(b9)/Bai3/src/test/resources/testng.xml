@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Bai3-DDT-Excel" verbose="2">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="env"     value="dev"/>
+    <!-- Chạy smoke: mvn test -Dgroups=smoke -->
+    <!-- Chạy regression: mvn test (mặc định) -->
+    <test name="DDT Excel - All Sheets">
+        <groups><run><include name="smoke"/><include name="regression"/></run></groups>
+        <classes><class name="tests.Bai3_LoginDDT_Excel"/></classes>
+    </test>
+</suite>

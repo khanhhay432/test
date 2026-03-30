@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<!--
+  BÀI 5: Thay đổi env để xem log khác nhau
+  Dev:     mvn test                → explicit.wait=15
+  Staging: mvn test -Denv=staging  → explicit.wait=20
+-->
+<suite name="Bai5-ConfigReader" verbose="2">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="env"     value="dev"/>
+    <test name="ConfigReader Demo">
+        <classes><class name="tests.Bai5_ConfigReader_Demo"/></classes>
+    </test>
+</suite>
