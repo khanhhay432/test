@@ -1,0 +1,7 @@
+[
+  { "username": "standard_user",          "password": "secret_sauce", "role": "user",  "expect_success": true,  "description": "TC-J01 User thường hợp lệ" },
+  { "username": "locked_out_user",         "password": "secret_sauce", "role": "user",  "expect_success": false, "description": "TC-J02 Tài khoản bị khóa" },
+  { "username": "problem_user",            "password": "secret_sauce", "role": "user",  "expect_success": true,  "description": "TC-J03 Problem user" },
+  { "username": "performance_glitch_user", "password": "secret_sauce", "role": "user",  "expect_success": true,  "description": "TC-J04 Performance glitch user" },
+  { "username": "invalid_user_xyz",        "password": "wrong_pass",   "role": "guest", "expect_success": false, "description": "TC-J05 User không tồn tại" }
+]
