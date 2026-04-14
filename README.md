@@ -13,3 +13,4 @@
 | Buổi 8 | `Test_case(b8)` | Bài tập buổi 8 |
 | Buổi 9 | `Test_case(b9)` | Bài tập buổi 9 |
 | Buổi 10 | `Test_case(b10)` | Bài tập buổi 10 |
+| Buổi 11 | `Test_case(b11)` | Bài tập buổi 11 |
